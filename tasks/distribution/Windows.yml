@@ -1,2 +1,19 @@
 ---
 # tasks file for sbaerlocher.anydesk
+
+- name: 'windows : create tools folder'
+  win_file:
+    path: '{{ anydesk_tools_directory }}'
+    state: directory
+
+- name: 'windows : download AnyDesk'
+  win_get_url:
+    url: '{{ anydesk_download_url }}'
+    dest: '{{ anydesk_exe_path }}'
+    force: false
+
+- name: 'windows : shortcuts for support'
+  win_shortcut:
+    desc: 'AnyDesk QuickSupport'
+    src: '{{ anydesk_exe_path }}'
+    dest: '%Public%\\Desktop\\Support.lnk'
