@@ -1,6 +1,6 @@
 # Ansible Role: anydesk
 
-[![Build Status](https://img.shields.io/travis-ci/sbaerlocher/ansible.anydesk.svg?branch=master&style=popout-square)](https://travis-ci.org/sbaerlocher/ansible.anydesk) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](https://sbaerlo.ch/licence) [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-anydesk-blue.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/anydesk) [![Ansible Role](https://img.shields.io/ansible/role/d/id.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/anydesk)
+[![Build Status](https://img.shields.io/travis-ci/sbaerlocher/ansible.anydesk.svg?branch=master&style=popout-square)](https://travis-ci.org/sbaerlocher/ansible.anydesk) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](https://sbaerlo.ch/licence) [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-anydesk-blue.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/anydesk) [![Ansible Role](https://img.shields.io/ansible/role/d/35838.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/anydesk)
 
 ## Description
 
