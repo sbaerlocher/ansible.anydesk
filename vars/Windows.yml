@@ -1,0 +1,12 @@
+---
+# vars file for sbaerlocher.anydesk
+
+# Dwonload link from AnyDesk.
+anydesk_download_url: 'https://download.anydesk.com/AnyDesk.exe'
+
+# Directory where the file should be stored
+anydesk_root_directory: "{{ ansible_env.SystemDrive }}\\{{ source_of_supply_name | default('Support') }}"
+anydesk_tools_directory: '{{ anydesk_root_directory }}\\tools.d'
+
+# Name of the binary file.
+anydesk_binary_nane: AnyDesk.exe'

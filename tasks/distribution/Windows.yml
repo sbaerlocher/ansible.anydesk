@@ -9,8 +9,9 @@
 - name: 'windows : download AnyDesk'
   win_get_url:
     url: '{{ anydesk_download_url }}'
-    dest: '{{ anydesk_exe_path }}'
-    force: false
+    dest: '{{ anydesk_tools_directory }}\\{{ anydesk_binary_nane }}'
+    proxy_url: '{{ anydesk_proxy }}'
+    validate_certs: '{{ anydesk_validate_certs }}'
 
 - name: 'windows : shortcuts for support'
   win_shortcut:

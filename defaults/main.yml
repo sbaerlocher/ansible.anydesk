@@ -1,2 +1,10 @@
 ---
 # defaults file for sbaerlocher.anydesk
+
+# If a proxy is in use this information can be used.
+# By default, proxy settings are taken from the default_* variables,
+# if they are not defined they are ignored.
+anydesk_proxy: '{{ default_proxy | default(omit) }}'
+anydesk_proxy_password: '{{ default_proxy_password | default(omit) }}'
+anydesk_proxy_username: '{{ default_proxy_username | default(omit) }}'
+anydesk_validate_certs: '{{ default_validate_certs | default(true) }}'
